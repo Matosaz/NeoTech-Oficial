@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NeoTech</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="#"> NeoTech </a></h2>
+            <ul class="links">
+                <li><a href="#Inicial">Inicio</a></li>
+                <li><a href="#Serviços">Sobre nós</a></li>
+                <li><a href="#orçamento">Orçamento</a></li>
+                <li><a href="#Contato">Contatos</a></li>
+              </ul>
+              <img src="user.png" class="user-img" onclick="toggleMenu()">
+
+              <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu"> 
+                  <div class="user-info">
+                    <img src="user.png">
+                    <h2>Fernando Luís</h2>
+                  </div>
+                  <hr>
+                  
+                  <a href="#" class="sub-menu-link">
+                    <img src="profile.png">
+                    <p> Editar perfil</p>
+                    <span>></span>
+                  </a>
+
+                  <a href="#" class="sub-menu-link">
+                    <img src="setting.png">
+                    <p> Configurações e privacidade</p>
+                    <span>></span>
+                  </a>
+
+                  <a href="#" class="sub-menu-link">
+                    <img src="help.png">
+                    <p> Ajuda e suporte</p>
+                    <span>></span>
+                  </a>
+
+                  <a href="http://localhost:3000" class="sub-menu-link">
+                    <img src="logout.png">
+                    <p> Sair do perfil</p>
+                    <span>></span>
+                  </a>
+                </div>
+              </div>
+            
+            </nav>
+            <script src="sketch.js">
+           </script>
+          </header>
+
+           <!---Inicio Inicial-->
+          <section class="Inicial" id="Inicial">
+          <div class="HERO">
+            <div class="texto">
+              <h1 class="titulo">NeoTech</h1>
+              <h3 class="descr"> Inovação, tecnologia e sustentabilidade</h3> </br>
+               <a href="#Serviços" class="botão1"> Saiba mais </a>
+
+              <img src="recycle.png" class="img1">
+               <img src="vetor.png" class="img2" style="visibility: visible;">
+               <hr class="divisorpg" style="visibility: hidden;">
+              </div>
+            </div>
+          </section>
+           <!---Fim Inicial-->
+
+            <!---Inicio Serviços-->
+            <div class="background-rectangle">
+            <section class="Serviços" id="Serviços">
+              <div>
+                
+                <h3 class="txt_Serviço">Sobre nós</h3>
+             
+                <div id="card-area">
+                  <div class="wrapper">
+                    <div class="box-area">
+                      <div class="box">
+                        <img src="cardimg1.jpg">
+                        <div class="overlay">
+                          <h3> Sobre nós</h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur 
+                            ipsum, nobis doloribusm? magni incidunt.</p>
+                            <a href="#"> Saiba mais</a>
+                        </div>
+                      </div>
+
+                      <div class="box">
+                        <img src="cardimg2.jpg">
+                        <div class="overlay">
+                          <h3> Serviços </h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur 
+                            ipsum, nobis doloribusm? magni incidunt.</p>
+                            <a href="#"> Saiba mais</a>
+                        </div>
+                      </div>
+
+                      <div class="box">
+                        <img src="cardimg3.jpg">
+                        <div class="overlay">
+                          <h3> Objetivo </h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur 
+                            ipsum, nobis doloribusm? magni incidunt.</p>
+                            <a href="#"> Saiba mais</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+          </div>
+             <!---Fim Serviços--> 
+
+           <!---Início Orçamento--> 
+           <div class="background-rectangle2">
+              <section class="row" id="orçamento">
+                <div class="imgWrapper">
+                  <video src="RecVideo.mp4" class="ewasteimg" autoplay loop muted></video>
+                </div>
+                <div class="contentWrapper">
+                  <div class="content">
+                    <h2>Orçamento</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quasi
+                       ipsa,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quasi
+                       ipsa, qui nobis nesciunt aliquam repellendus ea minima molestiae corrupti!
+                    </p>
+                    <a href="#" class="botao2">Faça um orçamento</a>
+                  </div>
+                </div>
+              </section>
+           </div>
+
+           <!---Fim Orçamento-->
+           
+           <!---Início Footer-->
+           <div class="background-rectangle3">
+           </div>
+           <!---Fim Footer-->
+            </div>
+          </div>
+        </section>
+</body>
+</html>
