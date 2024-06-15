@@ -35,7 +35,7 @@ const LoginCadastro = () => {
         {action==="Cadastrar"?<div></div>: <div className="senhaesquecida">Esqueceu a senha?</div>}
         <div className="submit-container">
           <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Cadastrar")}}>Cadastrar</div>
-          <div className={action==="Cadastrar"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}><a href="http://127.0.0.1:5500/Inicial/index.html">Login</a></div>
+          <div className={action==="Cadastrar"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
         </div>
       </div>
     </div>
